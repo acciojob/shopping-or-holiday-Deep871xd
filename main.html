@@ -7,36 +7,59 @@
 </head>
 
 <body>
-	<!DOCTYPE html>
+	
+ <form action=" " method="POST">
+	  <div>
+		  <label for="name">Name*</label>
+		  <input type="text" placeholder="Name" id="name" required>
+	  </div>
+	  <div>
+		  <label for="email">Email*</label>
+		  <input type="email" placeholder="Email" id="email" required>
+	  </div>
+	  <div>
+		  <label for="gender">Gender*</label>
+		  <input type="radio" value="Male" name="Gender" id="gender_m" required> Male
+		  <input type="radio" value="Female" name="Gender" id="gender_f" required>Female
+	  </div>
+	 <div>
+		  <label for="Car brands">Car Brands*</label>
+		 <select name="Car Brands" id="cars" >
+			 <option placeholder="--Please choose an option--">--Please choose an option--</option>
+			 <option value="BMW">BMW </option>
+			 	<option value="Audi">Audi</option>
+			 	 <option value="Mercedez">Mercedez</option>
+		 </select>
+     </div>
+	 <div>
+		 <label for="Age">Age*</label> 
+		 <input type="number" required placeholder="Age" id="age">
+	 </div>
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
+	 <div>
+		 <label for="DOB">DOB*</label> 
+		 <input type="Date" required id="age" >
+	 </div>
+	 <div>
+		 <label for="dob">Phone number</label> 
+		 <input type="tel"  placeholder="xxx-xxx-xxxx" id="tel" >
+	 </div>
+	 <div>
+		 <label for="Password">Password*</label> 
+		 <input type="Password" required placeholder="Password" id="password ">
+	 </div>
+	 <div>
+		 <label for="text">I agree to the TOS*</label> 
+		 <input type="checkbox" required id="tos" >
+	 </div>
+	 <button>
+		 submit
+	 </button>
+ </form>
+	  <!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
-</body>
-	<ol>
-		<li data-ns-test="shoppingList">Shoes</li>
-		<li data-ns-test="shoppingList" >Smart-Watch</li>
-		<li data-ns-test="shoppingList">Clothes</li>
-	</ol>
-	<ul>
-		<li data-ns-test="holidayList">Mumbai</li>
-		<li data-ns-test="holidayList">Ooty</li>
-		<li data-ns-test="holidayList">Jaipur</li>
-	</ul>
-
-</html>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	 
 </body>
 
 </html>
